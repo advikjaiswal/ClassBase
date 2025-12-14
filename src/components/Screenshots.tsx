@@ -17,7 +17,7 @@ export default function Screenshots() {
                     {[1, 2, 3, 4, 5, 6].map((item) => (
                         <div key={item} className="group relative rounded-3xl overflow-hidden border border-gray-100 shadow-lg aspect-[9/16] bg-gray-50 hover:shadow-2xl transition-all duration-500">
                             <Image
-                                src={`/screens/s${item}.png`}
+                                src={`/screens/s${item}.jpeg`}
                                 alt={`App Screenshot ${item}`}
                                 fill
                                 className="object-cover transition-transform duration-700 group-hover:scale-105"
