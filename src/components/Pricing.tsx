@@ -19,10 +19,9 @@ export default function Pricing() {
                         </div>
                         <div className="mb-8">
                             <p className="flex items-baseline gap-2">
-                                <span className="text-4xl font-bold text-gray-900">₹29,999</span>
-                                <span className="text-gray-500 font-medium">setup</span>
+                                <span className="text-3xl font-bold text-gray-900">Contact for Pricing</span>
                             </p>
-                            <p className="text-gray-600 mt-2">+ ₹1,499 / month hosting & updates</p>
+                            <p className="text-gray-600 mt-2">Let's discuss your requirements</p>
                         </div>
                         <ul className="space-y-4 mb-8 flex-1">
                             {[
@@ -56,8 +55,7 @@ export default function Pricing() {
                         </div>
                         <div className="mb-8">
                             <p className="flex items-baseline gap-2">
-                                <span className="text-4xl font-bold text-gray-900">₹75,000+</span>
-                                <span className="text-gray-500 font-medium">one-time</span>
+                                <span className="text-3xl font-bold text-gray-900">Contact for Pricing</span>
                             </p>
                             <p className="text-gray-600 mt-2">Tailored to your needs</p>
                         </div>
