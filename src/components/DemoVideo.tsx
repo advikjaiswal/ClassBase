@@ -15,27 +15,13 @@ export default function DemoVideo() {
 
                 <div className="max-w-5xl mx-auto">
                     <div className="relative aspect-video rounded-3xl overflow-hidden shadow-2xl border border-gray-800 bg-gray-800 group cursor-pointer">
-                        {/* Video Placeholder / Embed */}
-                        <div className="absolute inset-0 flex items-center justify-center bg-gray-800">
-                            {/* Replace with actual iframe or video tag */}
-                            <div className="w-20 h-20 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                                <Play className="text-white fill-current ml-1" size={32} />
-                            </div>
-                            <span className="absolute bottom-8 text-sm font-medium text-gray-400">Click to Play Demo</span>
-                        </div>
-
-                        {/* Example YouTube Embed Structure (Hidden for now) */}
-                        {/* 
-                 <iframe 
-                    width="100%" 
-                    height="100%" 
-                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
-                    title="ClassBase Demo" 
-                    frameBorder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowFullScreen 
-                 ></iframe> 
-                 */}
+                        <video
+                            src="/demo-video.mp4"
+                            controls
+                            className="w-full h-full object-cover"
+                        >
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </div>
