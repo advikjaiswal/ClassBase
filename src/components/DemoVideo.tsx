@@ -13,8 +13,8 @@ export default function DemoVideo() {
                     <p className="text-gray-400 text-lg">See how easy it is to manage your institute with ClassBase.</p>
                 </div>
 
-                <div className="max-w-5xl mx-auto">
-                    <div className="relative aspect-video rounded-3xl overflow-hidden shadow-2xl border border-gray-800 bg-gray-800 group cursor-pointer">
+                <div className="max-w-[382px] mx-auto">
+                    <div className="relative aspect-[382/850] rounded-3xl overflow-hidden shadow-2xl border border-gray-800 bg-gray-800 group cursor-pointer">
                         <video
                             src="/demo-video.mp4"
                             controls
