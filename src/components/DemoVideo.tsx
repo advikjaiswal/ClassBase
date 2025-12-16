@@ -1,5 +1,5 @@
 import React from "react";
-import { Play } from "lucide-react";
+
 
 export default function DemoVideo() {
     return (
